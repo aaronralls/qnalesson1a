@@ -40,7 +40,7 @@ namespace Lesson1a
             Console.WriteLine("uri: " + uri);
 
             // JSON format for passing question to service
-            string question = @"{'question': 'How can I cancel my hotel reservation?','top': 1}";
+            string question = @"{'question': 'What services do you provide?','top': 1}";
 
             Console.WriteLine("Q: " + question);
 
