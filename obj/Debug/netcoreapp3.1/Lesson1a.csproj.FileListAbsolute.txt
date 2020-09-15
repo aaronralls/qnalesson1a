@@ -1,0 +1,13 @@
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Lesson1a.exe
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Lesson1a.deps.json
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Lesson1a.runtimeconfig.json
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Lesson1a.runtimeconfig.dev.json
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Lesson1a.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Lesson1a.pdb
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.csprojAssemblyReference.cache
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.AssemblyInfoInputs.cache
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.AssemblyInfo.cs
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.csproj.CoreCompileInputs.cache
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.pdb
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.genruntimeconfig.cache
