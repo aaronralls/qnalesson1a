@@ -78,8 +78,18 @@ namespace Lesson1a
 
             if(res == "c")
             {
-                Console.WriteLine("Creating Data Source!");
-                var dsresponse = await CreateDataSource(searchServiceClient, configuration);
+                Console.WriteLine("Use Y for API or N for SDK.");
+
+                var useAPI = Console.ReadLine();
+
+                if(useAPI == "Y")
+                {
+                    var dsresponseapi = await CreateDataSourceAPI(configuration);
+                }
+                else if(useAPI == "N")
+                {
+                    var dsresponse = await CreateDataSource(searchServiceClient, configuration);
+                }                                                
             }
             else if( res == "ci")
             {
@@ -180,7 +190,50 @@ namespace Lesson1a
             return "ok";
         }
 
-        
+        static async Task<string> CreateDataSourceAPI(IConfigurationRoot configuration)
+        {
+            Console.WriteLine("Creating Data Source with API!");
+            using (var client = new HttpClient())
+            using (var request = new HttpRequestMessage())
+            {
+                // POST method
+                request.Method = HttpMethod.Post;
+
+                var uri = @"https://arqaknowledgemakerapp-aspqgp2j5jekw4o.search.windows.net/datasources/?api-version=2020-06-30";
+
+                // Add host + service to get full URI
+                request.RequestUri = new Uri(uri);
+
+                var newdatasource = @"{ ""name"": ""newknadatasource"",
+                                        ""type"" : ""azureblob"",
+                                        ""credentials"" :  
+                                        { 
+                                            ""connectionString"" : ""DefaultEndpointsProtocol=https;AccountName=aiknast;AccountKey=s7CaUtBdvCLAKvMneN3HCc3FiLmIDmat+VK+Xnc22RGAte6BRVWuBnCjARDbi3yLjRIOgLo2wk8jjMy9MEiyMw==;EndpointSuffix=core.windows.net"" 
+                                        },  
+                                        ""container"" :  { ""name"" : ""otherdocs"" }
+                                        }";
+                // set datasource
+                request.Content = new StringContent(newdatasource, Encoding.UTF8, "application/json");
+
+                // set authorization
+                request.Headers.Add("Authorization", "api-key " + configuration["SearchServiceAdminApiKey"]);
+
+                // Send request to Azure service, get response
+                var response = await client.SendAsync(request);
+                Console.WriteLine("Response Status:" + response.StatusCode);
+
+                var jsonResponse = response.Content.ReadAsStringAsync().Result;
+
+                // Output JSON response
+                Console.WriteLine("A: " + jsonResponse);
+
+                Console.WriteLine("Press any key to continue.");
+                Console.ReadKey();
+
+                return jsonResponse;
+            }
+
+        }
 
         
         static async Task<string> ListDataSource( SearchClient serviceClient, IConfigurationRoot configuration)
