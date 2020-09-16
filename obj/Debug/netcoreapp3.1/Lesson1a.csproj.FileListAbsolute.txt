@@ -11,3 +11,16 @@ C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a
 C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.dll
 C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.pdb
 C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.genruntimeconfig.cache
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Azure.Search.Documents.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\obj\Debug\netcoreapp3.1\Lesson1a.csproj.CopyComplete
+C:\Users\aaralls\Documents\AI OpenHack\Lesson1a\bin\Debug\netcoreapp3.1\appsettings.json
